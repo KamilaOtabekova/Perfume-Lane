@@ -228,13 +228,43 @@
 
   .about_wrap-text {
     width: 100%;
-    max-width: 340px;
+    max-width: 300px;
   }
 
   .banner_link {
     width: auto;
     padding: 34px 34px;
     font-size: 17px;
+  }
+
+
+  .collection_left-wrap {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+
+  .collection_left-info {
+    align-items: center;
+  }
+
+  .collection_left-title {
+    font-size: 20px;
+  }
+
+  .collection_left-desc {
+    max-width: 100%;
+    font-size: 15px;
+  }
+
+  .collection_right-img {
+    max-width: 240px;
+  }
+
+  .collection_left-link {
+    width: 140px;
+    height: 55px;
+    font-size: 15px;
   }
 }
 
